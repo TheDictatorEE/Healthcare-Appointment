@@ -59,7 +59,7 @@ function googleConnect(req, res) {
 async function googleCallback(req, res) {
   const { code, state: userId } = req.query;
   await calendarService.handleOAuthCallback(code, userId);
-  res.redirect(`${process.env.FRONTEND_URL}/settings?calendar=connected`);
+  res.redirect(`${process.env.FRONTEND_URL}/?calendar=connected`);
 }
 
 module.exports = { register, login, me, googleConnect, googleCallback };
