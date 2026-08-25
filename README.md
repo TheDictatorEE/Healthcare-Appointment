@@ -62,10 +62,10 @@ Full API reference and Google Calendar setup steps are in `backend/README.md` an
 
 ## Deployed link
 
-Frontend: https://healthcare-appointment-eta.vercel.app
-Backend: https://healthcare-appointment-1amu.onrender.com
+- Frontend: https://healthcare-appointment-eta.vercel.app
+- Backend: https://healthcare-appointment-1amu.onrender.com
 
 #Credentials
 
-Admin: admin@clinic.com / Admin@123
-Doctor: dr.sharma@clinic.com / Doctor@123
+- Admin: admin@clinic.com / Admin@123
+- Doctor: dr.sharma@clinic.com / Doctor@123
